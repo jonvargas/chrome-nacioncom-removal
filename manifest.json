@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nacion.com Popup Removal",
+  "description": "Remueve popups de suscripción en sitios nacion.com y elfinancierocr.com cuando son cargadas en el navegador, cambiando su apariencia",
+  "version": "1.0",
+  "author": "jonathan.vargas.cr",
+
+  "icons": { 
+    "128": "icon.png" 
+  },
+
+  "content_scripts": [
+    {
+        "matches": [
+          "http://www.nacion.com/*",
+          "http://www.elfinancierocr.com/*"
+        ],
+
+        "js": ["jquery-2.1.4.min.js", "main.js"]
+    }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ]
+}
