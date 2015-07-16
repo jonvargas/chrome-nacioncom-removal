@@ -1,5 +1,6 @@
-# chrome-nacioncom-removal
-Extensión para Google Chrome que remueve popups de suscripción en sitios nacion.com y elfinancierocr.com
+# Removedor de Popups
+
+Extensión para Google Chrome que remueve popups de suscripción automáticamente al navegar en los sitios nacion.com y elfinancierocr.com.
 
 Publicada en:
 
