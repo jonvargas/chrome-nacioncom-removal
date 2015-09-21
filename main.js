@@ -22,11 +22,15 @@ $( document ).ready(function() {
 	var div2 = ! div1 ? null : div1.previousElementSibling;
 	var div3 = byClass ("LNA_paywall_modal_wrapper")[0];
 	var div4 = ! div3 ? null : div3.previousElementSibling;
+	var div5 = byClass ("suscribase")[0];
+	var div6 = ! div5 ? null : div5.previousElementSibling;
 
 	remove (div1);
 	remove (div2);
 	remove (div3);
 	remove (div4);
+	remove (div5);
+	remove (div6);
 
 	console.log( "Popups Removed" );
 
