@@ -13,8 +13,16 @@ function remove (elem) {
     	return elem.parentNode.removeChild(elem);
 }
 
+function ready(fn) {
+  if (document.readyState != 'loading'){
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
+}
+
 // A $( document ).ready() block.
-$( document ).ready(function() {
+ready(function() {
 
 	console.log( "Removing Popups" );
 
