@@ -24,6 +24,8 @@ $( document ).ready(function() {
 	var div4 = ! div3 ? null : div3.previousElementSibling;
 	var div5 = byClass ("suscribase")[0];
 	var div6 = ! div5 ? null : div5.previousElementSibling;
+	var div7 = byId ("conteo_notas_paywall");
+	var div8 = ! div7 ? null : div7.previousElementSibling;
 
 	remove (div1);
 	remove (div2);
@@ -31,6 +33,8 @@ $( document ).ready(function() {
 	remove (div4);
 	remove (div5);
 	remove (div6);
+	remove (div7);
+	remove (div8);
 
 	console.log( "Popups Removed" );
 
